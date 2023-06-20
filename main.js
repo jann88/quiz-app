@@ -48,7 +48,7 @@ const quizData = [
     correct: "d",
   },
 ];
-
+const quiz = document.getElementById("quiz");
 const questionEl = document.getElementById("question");
 const answersEls = document.querySelectorAll(".answer");
 
@@ -106,9 +106,9 @@ submitBtn.addEventListener("click", (e) => {
     currentQuiz++;
     if (currentQuiz < quizData.length) {
       loadQuiz();
-      //   currentQuiz++ not necessary
     } else {
       alert("You finished! Well done.");
+      quiz.innerHTML = `<h2>You answered ${score}/${quizData.length} questions correctly.Well done!</h2>  `;
     }
   }
 });
