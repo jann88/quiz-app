@@ -64,18 +64,17 @@ h2{
     background-color: #ee0979;
 }
 
-/* @media (max-width: 680px) {
-    .body {
-        margin-inline: 2rem;
-    }
+@media (max-width: 650px) {
     .quiz__container{
-        width: 400px;
+        width: 300px;
+        margin-inline: 1rem;
+        padding: 1rem;
         justify-content: center;
         text-align: center;
         display: flex;
         flex-direction: column;
         }
     .submit{
-        width: 250px;
+        width: 100%;
     }
-} */
+}
