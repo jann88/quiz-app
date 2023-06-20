@@ -65,6 +65,7 @@ let score = 0;
 loadQuiz();
 
 function loadQuiz() {
+  deselectAnswers();
   const currentQuizData = quizData[currentQuiz];
   //select the entire quiz container
   questionEl.innerText = currentQuizData?.question;
@@ -85,6 +86,12 @@ function getSelected() {
     }
   });
   return answer;
+}
+
+function deselectAnswers() {
+  answersEls.forEach((answerEl) => {
+    answerEl.checked = false;
+  });
 }
 
 submitBtn.addEventListener("click", (e) => {
