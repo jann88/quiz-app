@@ -108,7 +108,10 @@ submitBtn.addEventListener("click", (e) => {
       loadQuiz();
     } else {
       alert("You finished! Well done.");
-      quiz.innerHTML = `<h2>You answered ${score}/${quizData.length} questions correctly.Well done!</h2>  `;
+      quiz.innerHTML = `<h2>You answered ${score}/${quizData.length} questions correctly.Well done!</h2> 
+        <button class='submit' onClick='location.reload()'>
+        Reload
+        </button> `;
     }
   }
 });
