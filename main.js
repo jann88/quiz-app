@@ -1,0 +1,42 @@
+const quizData = [
+  {
+    question: "How old is Janet?",
+    a: "10",
+    b: "30",
+    c: "27",
+    d: "45",
+    correct: "c",
+  },
+  {
+    question: "What is the most used programming language",
+    a: "Java",
+    b: "C",
+    c: "Python",
+    d: "JavaScript",
+    correct: "d",
+  },
+  {
+    question: "Who is the president of Kenya",
+    a: "Uhuru Kenyatta",
+    b: "Mwai Kibaki",
+    c: "William Ruto",
+    d: "Jomo Kenyatta",
+    correct: "c",
+  },
+  {
+    question: "What is your favourite color?",
+    a: "Pink",
+    b: "Yellow",
+    c: "Jungle green",
+    d: "Black",
+    correct: "c",
+  },
+  {
+    question: "What programming language are you currently learning",
+    a: "Python",
+    b: "JavaScript",
+    c: "C",
+    d: "Kotlin",
+    correct: "c",
+  },
+];
